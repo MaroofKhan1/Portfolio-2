@@ -18,7 +18,8 @@ const Contact = () => {
 
   function change_text() {
     const txt = "Sent";
-    document.getElementById("contact-btn").value = txt; 
+    document.getElementById('contact-btn').value = txt;
+    // document.getElementById('contact-btn').disabled = true;
   }
 
   const sendEmail = (e) => {
@@ -54,9 +55,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+          I am available to work on your projects and bring
+            your ideas to life. I am just a click away. If you have a other request or question,
+            don't hesitate to contact me using the form bellow either.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
