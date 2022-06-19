@@ -1,0 +1,35 @@
+.about-me-avatar {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.about-me-avatar img {
+  height: 600px;
+}
+
+.flat-button {
+  color: #FF2E63;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #FF2E63;
+  margin-top: 25px;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+  background-color: transparent;
+
+  &:hover {
+    background: #FF2E63;
+    color: #333;
+  }
+}

@@ -1,0 +1,32 @@
+.my-skills {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  row-gap: 0.625rem;
+}
+
+.my-skills p {
+  text-align: center;
+}
+
+.my-skills img {
+  width: 50px; 
+  transition-duration: 300ms;
+}
+
+.my-skills img:hover {
+  transform: scale(1.2);
+}
+
+a.skill-link {
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+  /* justify-content: space-around; */
+  /* display: flex; */
+  /* flex-flow: column; */
+}
+
+a.skill-link p {
+  margin-left: 5px;
+}
