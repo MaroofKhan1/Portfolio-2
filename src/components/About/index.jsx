@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import Resume from '../../assets/images/Ronald_Portalatin Resume.pdf'
+import Resume from '../../assets/file/Ronald_Portalatin Resume.pdf'
 import './index.scss'
 
 const About = () => {

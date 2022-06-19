@@ -127,6 +127,11 @@
     text-align: center;
     background-color: gainsboro;
     border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.project:hover {
+    transform: scale(1.1);
 }
 
 .project img {
@@ -157,8 +162,14 @@ ul.skills-used {
 .app-launch svg {
     height: 20px;
     padding: 5px;
+    transition-duration: 300ms;
 }
 
 .container.portfolio-page p {
     color: #444;
+}
+
+.app-launch a svg:hover {
+    color: #FF2E63;
+    transform: scale(1.2);
 }
