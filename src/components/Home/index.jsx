@@ -49,7 +49,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2 className='job-title'>FULL-STACK ENGINEER | GRAPHIC DESIGNER</h2>
+          <h2 className='job-title'>FRONT END DEVELOPER | GRAPHIC DESIGNER</h2>
           <h2 className='description'>I'm a software engineer and graphic designer that has skills in both the back-end of web applications and the front-end based in Lakeland, FL</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

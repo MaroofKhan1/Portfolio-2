@@ -22,11 +22,17 @@ a.skill-link {
   align-items: center;
   display: inline-flex;
   text-decoration: none;
-  /* justify-content: space-around; */
-  /* display: flex; */
-  /* flex-flow: column; */
 }
 
 a.skill-link p {
   margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) { 
+  a.skill-link {
+    display: contents;
+  }
+  .info-map, .map-wrap {
+    display: none;
+  }
 }

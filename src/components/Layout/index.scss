@@ -17,6 +17,7 @@
   left: 120px;
   font-size: 18px;
   font-family: 'La Belle Aurore', cursive;
+  z-index: -1;
 }
 
 .bottom-tag-html {
@@ -28,7 +29,7 @@
   will-change: contents;
   height: 90%;
   min-height: 566px;
-  position: absolute;
+  position: fixed;
   opacity: 0;
   top: 5%;
   margin: 0 auto;
@@ -36,6 +37,12 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+}
+
+@media screen and (max-width: 600px) { 
+  .container { 
+    left: 15%; 
+  }    
 }
 
 .container.contact-page,
@@ -113,4 +120,19 @@
       color: #fff;
     }
   }
+}
+
+@media screen and (max-width: 900px) { 
+  .container.about-page .text-zone {
+    width: 65%;
+  }
+  .container.skills-page .text-zone {
+    width: 65%;
+  }
+  .container.contact-page .text-zone {
+    width: 65%;
+  }
+  .container.contact-page h1 {
+    font-size: 4em;
+  } 
 }

@@ -33,3 +33,12 @@
     color: #333;
   }
 }
+
+@media screen and (max-width: 900px) { 
+  .about-me-avatar img { 
+    display: none; 
+  }
+  .container.about-page .text-zone {
+    width: 65%;
+  }
+}

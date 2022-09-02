@@ -16,6 +16,8 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 
+    
+
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
@@ -96,6 +98,12 @@
   height: 600px;
 }
 
+@media screen and (max-width: 600px) { 
+  .home-avatar img { 
+    display: none; 
+  }    
+}
+
 .job-title {
   font-weight: bold;
 }
@@ -106,3 +114,14 @@
   width: 50px;
 }
 
+@media screen and (max-width: 900px) { 
+  .home-page .text-zone { 
+    width: 70%;
+  }
+  h1 { 
+    width: 24rem;
+  }
+  .home-avatar img { 
+    display: none;     
+  }
+}

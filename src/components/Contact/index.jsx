@@ -97,16 +97,16 @@ const Contact = () => {
         </div>
         <div className="info-map">
           Ronald Portalatin Jr, <br />          
-          Covington, GA <br />
+          Lakeland, FL <br />
           <br />
           (470) 807-8889
           <br />
-          <span>coltonsaywhatt@gmail.com</span>
+          <span>RonaldPortalatin@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[33.4582478,-83.9264653]} zoom={13}>
+          <MapContainer center={[28.147192939340815, -81.96468412836306]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[33.4582478,-83.9264653]}>
+            <Marker position={[28.147192939340815, -81.96468412836306]}>
               <Popup>I currently live here!</Popup>
             </Marker>
           </MapContainer>

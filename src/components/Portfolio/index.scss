@@ -173,3 +173,23 @@ ul.skills-used {
     color: #FF2E63;
     transform: scale(1.2);
 }
+
+.project {
+    width: 20rem;
+}
+.project img {
+    width: 18em;
+}
+
+@media screen and (max-width: 900px) { 
+    .project {
+        width: 20rem;
+    }
+    .project img {
+        width: 18em;
+    }
+    .portfolio-page h1.page-title {
+        margin-left: 0;
+  
+    }
+}
