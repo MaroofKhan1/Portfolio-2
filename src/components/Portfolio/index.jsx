@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <div className="projects-grid">
 
                   <div className="project">
-                    <img src="https://i.ibb.co/BnF3WK4/Screen-Shot-2022-05-25-at-2-41-07-PM.png" alt="" />
+                    <img src="https://i.imgur.com/wgRvroV.png" alt="" />
                     <h3>Grant Guide</h3>
                     <p>Developed a web application to facilitate the process of identifying and applying for environmental grants for under-resourced communities, utilizing a user-friendly interface.</p>
                     <ul className="skills-used">
@@ -42,8 +42,8 @@ const Portfolio = () => {
                       <li>WebSocket</li>
                     </ul>
                     <div className="app-launch">
-                    <a href="https://github.com/coltonsaywhatt/GA-Blackjack-Project"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
-                    <a href="https://coltonsaywhatt.github.io/GA-Blackjack-Project/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
+                    <a href="https://github.com/MaroofKhan1/GrantGuide"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
+                    <a href="https://grant-guide.herokuapp.com"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
                     </div>
                   </div>
 
