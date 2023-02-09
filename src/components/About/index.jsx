@@ -32,21 +32,21 @@ const About = () => {
             Apart from coding, some other activities that I love to do! 
             <br />
             <br />
-            🕹️ Playing Video Games <br />
-            🎹 Producing Music <br />
-            🎟️ Music Festivals <br />
-            📷 Photography <br />
-            🎣 Fishing 
+            🎮 Playing Video Games <br />
+            🏋️ Working Out <br />
+            🖥️ Building Computers <br />
+            🏈 FootBall <br />
+            🏀 BasketBall 
           </p>
           <p>
-            "Strive to build things that make a difference!"<br />
+            "I am committed to developing solutions that have a meaningful and lasting impact!"<br />
             -Maroof Khan.
           </p> <br />
           <a href={Resume} download><button className='flat-button'>Download Resume</button></a>
         </div>
 
         <div className="about-me-avatar">
-          <img src="https://i.ibb.co/vxBwGdD/pose3.png" alt="" />
+          {/* <img src="https://i.ibb.co/vxBwGdD/pose3.png" alt="" /> */}
         </div>
       </div>
       {/* <Loader type="ball-pulse-sync" /> */}
