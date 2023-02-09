@@ -34,12 +34,12 @@ const Portfolio = () => {
 
                   <div className="project">
                     <img src="https://i.ibb.co/BnF3WK4/Screen-Shot-2022-05-25-at-2-41-07-PM.png" alt="" />
-                    <h3>BlackJack</h3>
-                    <p>Developed a Blackjack game for the browser which utilized CSS and JavaScript for the presentation and logic.</p>
+                    <h3>Grant Guide</h3>
+                    <p>Developed a web application to facilitate the process of identifying and applying for environmental grants for under-resourced communities, utilizing a user-friendly interface.</p>
                     <ul className="skills-used">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>MongoDB</li>
+                      <li>WebSocket</li>
                     </ul>
                     <div className="app-launch">
                     <a href="https://github.com/coltonsaywhatt/GA-Blackjack-Project"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
