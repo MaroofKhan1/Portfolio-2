@@ -55,9 +55,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-          I am available to work on your projects and bring
-            your ideas to life. I am just a click away. If you have a other request or question,
-            don't hesitate to contact me using the form bellow either.
+          I am excited to work with you on your projects and bring your ideas to life. I am just a message away. If you have any other requests or questions, please don't hesitate to contact me using the form below. I look forward to hearing from you and working together!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -96,12 +94,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Ronald Portalatin Jr, <br />          
-          Lakeland, FL <br />
+          Maroof Khan, <br />          
+          Blaine, MN <br />
           <br />
-          (470) 807-8889
+          (612) 404-6934
           <br />
-          <span>RonaldPortalatin@gmail.com</span>
+          <span>maroof.mkf@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[28.147192939340815, -81.96468412836306]} zoom={13}>

@@ -8,8 +8,8 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['R', 'o', 'n', 'a', 'l', 'd']
-  const jobArray = ['P','o','r','t','a','l','a','t','i','n','','J','r']
+  const nameArray = ['M', 'a', 'r', 'o', 'o', 'f']
+  const jobArray = ['K','h','a','n']
 
   useEffect(() => {
     return setTimeout(() => {
@@ -49,7 +49,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2 className='job-title'>FRONT END DEVELOPER | GRAPHIC DESIGNER</h2>
+          <h2 className='job-title'>FRONT END DEVELOPER | PRODUCT MANAGER</h2>
           <h2 className='description'>I'm a software engineer and graphic designer that has skills in both the back-end of web applications and the front-end based in Lakeland, FL</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
