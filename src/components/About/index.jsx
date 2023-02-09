@@ -25,9 +25,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I fell in love with coding and programming at the age of 10 years old.
-            I am fluent in classics like Html, Javascript and CSS.
-            My field of Interest's are building new web technologies and products and also in areas related to deep learning and natural language processing.
+          Since I was a young child, I have been deeply passionate about computers and technology, which has only deepened as the years have gone by, inspiring me to pursue a career in software engineering and Product Management to create innovative solutions that can benefit both businesses and customers alike.
             Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks.
           </p>
           <p align="LEFT">
@@ -42,7 +40,7 @@ const About = () => {
           </p>
           <p>
             "Strive to build things that make a difference!"<br />
-            -Ronald Portalatin Jr.
+            -Maroof Khan.
           </p> <br />
           <a href={Resume} download><button className='flat-button'>Download Resume</button></a>
         </div>

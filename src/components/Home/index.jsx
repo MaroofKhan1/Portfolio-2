@@ -50,13 +50,13 @@ const Home = () => {
             />
           </h1>
           <h2 className='job-title'>FRONT END DEVELOPER | PRODUCT MANAGER</h2>
-          <h2 className='description'>I'm a software engineer and graphic designer that has skills in both the back-end of web applications and the front-end based in Lakeland, FL</h2>
+          <h2 className='description'>I'm a software engineer and Product Manager, passionate about creating innovative solutions in Blaine, MN</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         <div className='home-avatar'>
-          <img src="https://i.ibb.co/H2YqrY0/pose2.png" alt=''></img>
+          {/* <img src="https://i.ibb.co/H2YqrY0/pose2.png" alt=''></img> */}
         </div>
       </div>
 
