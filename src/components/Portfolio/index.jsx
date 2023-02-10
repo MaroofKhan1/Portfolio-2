@@ -69,19 +69,19 @@ const Portfolio = () => {
                   <div className="project">
                     <img src="https://i.ibb.co/vXjfdp5/Screen-Shot-2022-05-25-at-5-51-36-PM.png" alt="" />
                     <h3>Tweepy</h3>
-                    <p>Developed a social media platform that allows users to post both text and images.</p>
+                    <p>Developed a web-based platform, hosted on AWS, that enables users to share and post both textual and visual content, fostering social interaction and communication.</p>
                     <ul className="skills-used">
                       <li>Python</li>
                       <li>Django</li>
                       <li>PostgreSQL</li>
                       <li>HTML</li>
                       <li>CSS</li>
-                      <li>GIT</li>
                       <li>Bootstrap</li>
                       <li>Heroku</li>
+                      <li>AWS</li>
                     </ul>
                     <div className="app-launch">
-                    <a href="https://github.com/coltonsaywhatt/Tweepy"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
+                    <a href="https://github.com/MaroofKhan1/Tweepy"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                     <a href="https://tweepyofficial.herokuapp.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
                     </div>
                   </div>
