@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <div className="projects-grid">
 
                   <div className="project">
-                    <img src="https://i.imgur.com/wgRvroV.png" alt="" />
+                    <img src="https://i.imgur.com/H7GVOxx.jpg" alt="" />
                     <h3>Grant Guide</h3>
                     <p>Developed a web application to facilitate the process of identifying and applying for environmental grants for under-resourced communities, utilizing a user-friendly interface.</p>
                     <ul className="skills-used">
