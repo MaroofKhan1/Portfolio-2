@@ -52,9 +52,9 @@ const Portfolio = () => {
                     <h3>Top Kek</h3>
                     <p>Created a Twitch media platform that allows the user to post funny moments they have clipped of a streamer along with the ability to leave comments and rate.</p>
                     <ul className="skills-used">
+                      <li>JavaScript</li>
                       <li>HTML</li>
                       <li>CSS</li>
-                      <li>JavaScript</li>
                       <li>MongoDB</li>
                       <li>Express</li>
                       <li>Node.JS</li>
