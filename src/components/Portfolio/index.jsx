@@ -61,8 +61,8 @@ const Portfolio = () => {
                       <li>Heroku</li>
                     </ul>
                     <div className="app-launch">
-                      <a href=""><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
-                      <a href="https"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
+                      {/* <a href=""><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a> */}
+                      {/* <a href="https"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a> */}
                     </div>
                   </div>
 
