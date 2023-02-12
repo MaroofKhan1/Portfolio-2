@@ -62,7 +62,7 @@ const Portfolio = () => {
                     </ul>
                     <div className="app-launch">
                       <a href=""><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
-                      <a href="https://top-kek.herokuapp.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
+                      <a href="https"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
                     </div>
                   </div>
 
@@ -73,12 +73,12 @@ const Portfolio = () => {
                     <ul className="skills-used">
                       <li>Python</li>
                       <li>Django</li>
+                      <li>AWS</li>
                       <li>PostgreSQL</li>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>Bootstrap</li>
                       <li>Heroku</li>
-                      <li>AWS</li>
                     </ul>
                     <div className="app-launch">
                     <a href="https://github.com/MaroofKhan1/Tweepy"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
