@@ -56,13 +56,13 @@ const Portfolio = () => {
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>MongoDB</li>
-                      <li>Express</li>
                       <li>Node.JS</li>
+                      <li>Express</li>
                       <li>Heroku</li>
                     </ul>
                     <div className="app-launch">
                       {/* <a href=""><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a> */}
-                      {/* <a href="https"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a> */}
+                      <a href="https"><FontAwesomeIcon icon={faArrowUpRightFromSquare} color="#4d4d4e" /></a>
                     </div>
                   </div>
 
